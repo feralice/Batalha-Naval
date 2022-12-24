@@ -1,0 +1,2 @@
+C:\Users\USER\source\repos\Sockets\x64\Debug\Sockets.exe
+C:\Users\USER\source\repos\SocketServer\x64\Debug\SocketServer.exe
