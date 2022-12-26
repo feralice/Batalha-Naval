@@ -47,9 +47,13 @@ public:
 	int afundadoMeu;
 
 	void inicio(char* nomeEntrada);
+	
 	void imprimeTabuleiro(char tabuleiro[10][10]);
+	
 	void navios();
+	
 	void direcoes();
+	
 	void jogada();
 
 	void insere(int posicao, char direcao, int linha, int coluna, char letra);
@@ -57,13 +61,17 @@ public:
 	int verificaInsere(int linha, int coluna, char direcao, char barco);
 
 	int letraNumero(char letra);
+	
 	char numeroLetra(int numero);
 
-
 	char* ataque();
+	
 	void respostaAtaque(char* resposta);
+	
 	char* defesa(char* coordenaas);
+	
 	char* perdeu();
+	
 	char* ganhou();
 
 };
